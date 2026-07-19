@@ -29,17 +29,14 @@ a {
     background-color: yellow;
 }
 
+.recipe-links{
+    display: flex;
+}
+
 div a{
-    display: inline-block;
-    box-sizing: border-box;
-
-    width: 297px;
+    border: 1px solid black;
+    flex: 1;
     text-align: center;
-    padding: 10px;
-    margin: -15px 0px;
-
-    background-color: yellow;
-    font-size: 20px;
 }
 
 img{
