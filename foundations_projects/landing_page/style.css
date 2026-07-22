@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100vh;
+    font-family: "Roboto", Arial, sans-serif;
+    margin: 0px;
+    font-weight: 300;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bolder;
+    font-style: italic;
+    color: #F9FAF8;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.main-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding: 90px 60px;
+
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 0 0 auto;
+
+    width: 454px;
+    padding: 0px 20px;
+}
+
+.info{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#hero{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+button {
+    margin: 10px 0px;
+    padding: 5px 25px;
+
+    border-radius: 8px;
+
+    color: #F9FAF8;
+    border-color: #3882F6;
+    background-color: #3882F6;
+    border-style: none;
+}
+
+img {
+    flex: 0 0 auto;
+    width: 400px;
+}
+
+.random-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    flex: 0 0 350px;
+}
+
+.illustrations{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    gap: 40px;
+}
+
+.cat-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 170px;
+
+    gap: 10px;
+
+    text-align: center;
+    font-size: 14px;
+}
+
+.cats {
+    width: 170px;
+
+    border: 3px solid #3882F6;
+    border-radius: 16px;
+
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 90px;
+
+    background-color: #E5E7EB;
+}
+#thor-message{
+    flex: 0 0 none;
+
+    width: 715px;
+
+    font-size: 32px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+#thor{
+    text-align: right;
+    font-weight: 900;
+}
+
+.footer{
+    align-self: stretch;
+
+    padding: 20px;
+
+    text-align: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.sing-up{
+    align-self: center;
+    padding: 100px 0px;
+}
+
+.sing-up-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 100px;
+    height: 150px;
+    width: 1000px;
+
+    font-size: 18px;
+    color: #F9FAF8;
+    border-radius: 8px;
+    background-color: #3882F6;
+}
+
+#sing-up-button{
+    border: 1px solid #F9FAF8;
+    border-radius: 8px;
+}
